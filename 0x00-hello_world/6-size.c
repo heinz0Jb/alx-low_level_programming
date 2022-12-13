@@ -1,10 +1,10 @@
 #include <stdio.h>
 /*
- * main -Entry point
+ * main - Entry point
  *
  * Return always 0 (Success)
  */
-int main(void)
+int main (void)
 {
 	char c;
 	int d;
