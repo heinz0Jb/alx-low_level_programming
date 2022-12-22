@@ -1,8 +1,11 @@
-int counter= 97;
-
-while(counter < 123)
+int print_alphabet(void)
 {
-	putchar_(counter);
-	counter++;
-}
 
+	int counter= 97;
+
+	while(counter < 123)
+	{	
+		putchar_(counter);
+		counter++;
+	}
+}
