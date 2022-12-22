@@ -11,4 +11,5 @@ int print_alphabet(void)
 		counter++;
 	}
 	_putchar('\n');
+	return(0);
 }
