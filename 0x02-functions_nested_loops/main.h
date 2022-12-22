@@ -8,4 +8,5 @@ int print_alphabet(void)
 		_putchar(counter);
 		counter++;
 	}
+	putchar('\n');
 }
