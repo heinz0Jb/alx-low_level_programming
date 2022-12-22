@@ -1,15 +1,12 @@
-int _putchar( int i);
-
-int print_alphabet(void)
+void print_alphabet(void)
 {
 
 	int counter= 97;
 
 	while(counter < 123)
 	{	
-		_putchar(counter);
+		putchar(counter);
 		counter++;
 	}
-	_putchar('\n');
-	return(0);
+	putchar('\n');
 }
