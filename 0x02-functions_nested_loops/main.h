@@ -1,3 +1,5 @@
+int _putchar( int i);
+
 int print_alphabet(void)
 {
 
@@ -8,5 +10,5 @@ int print_alphabet(void)
 		_putchar(counter);
 		counter++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
