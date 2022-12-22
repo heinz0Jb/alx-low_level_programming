@@ -5,7 +5,7 @@ int print_alphabet(void)
 
 	while(counter < 123)
 	{	
-		putchar_(counter);
+		putchar(counter);
 		counter++;
 	}
 }
