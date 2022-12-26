@@ -6,7 +6,7 @@
  */
 int _islower (int c)
 	char a;
-	a = (char)i;
+	a = (char)c;
 {
 	if( a  >= 97 && a <= 122)
 	{

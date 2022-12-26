@@ -14,6 +14,6 @@ int main(void)
 	_putchar(r + 'o');
 	r = _islower(108);
 	_putchar(r + 'o');
-	_puthcar('\n');
+	_putchar('\n');
 	return(0);
 }
