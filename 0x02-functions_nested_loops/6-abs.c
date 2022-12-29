@@ -6,6 +6,7 @@
 int _abs(int c)
 {
 	int a = -1;
+
 	if (c < 0)
 	{
 		c *= a;
