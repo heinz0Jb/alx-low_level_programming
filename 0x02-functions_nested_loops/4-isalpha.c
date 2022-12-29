@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * _isalpha - print alphabet letters
+ * _isalpha - entry function
  *
  * return - 1 if c is a letter or 0 otherwise
  */
@@ -10,11 +10,11 @@ char _isalpha(char c)
 	{
 		return (1);
 	}
-	else if (c >=97 && c <= 122)
+	else if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
