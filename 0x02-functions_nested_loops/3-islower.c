@@ -4,13 +4,15 @@
  *
  * return - 1 if c is lowercase otherwise 0
  */
-int _islower (int c)
-	char a;
-	a = '0' + c;
+int _islower (char c)
 {
-	if( a  >= 97 && a <= 122)
+	if( c >= 97 && c <= 122)
 	{
 		return(1);
 	}
-	else{
+	else
+	{
+		return(0);
+	}
+}
 	
