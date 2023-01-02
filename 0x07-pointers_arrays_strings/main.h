@@ -4,8 +4,7 @@
  * File: main.h
  * description: Header file containing prototypes for all functions
  *
- * /
-#include <stddef.h>
+ */
 
 int _putchar(char c);
 char *_memset(void *s, int b, size_t n);
